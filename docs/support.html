@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RunwayCalc – Support</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1c1c1e;--muted:#6b6b70;--accent:#0a64d6;--card:#f2f2f7}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f2f2f7;--muted:#9a9aa0;--accent:#4da3ff;--card:#1c1c1e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.8rem;margin:.5rem 0}h2{font-size:1.25rem;margin-top:2rem}h3{font-size:1.05rem}
+a{color:var(--accent)}nav{display:flex;flex-wrap:wrap;gap:.5rem 1rem;padding:.75rem 0;border-bottom:1px solid var(--card)}
+.card{background:var(--card);border-radius:12px;padding:1rem;margin:1rem 0}
+.muted{color:var(--muted);font-size:.9rem}
+hr{border:0;border-top:1px solid var(--card);margin:2.5rem 0}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">RunwayCalc</a><a href="privacy.html">Privacy / Datenschutz</a><a href="support.html">Support</a><a href="#en">English</a><a href="#de">Deutsch</a></nav>
+
+<section id="en">
+<h1>Support</h1>
+<p>Questions, feedback or bug reports: &#114;&#117;&#110;&#119;&#97;&#121;&#99;&#97;&#108;&#99;&#64;&#109;&#97;&#99;&#104;&#111;&#119;&#105;&#97;&#107;&#46;&#100;&#101;</p>
+<h2>FAQ</h2>
+<h3>How are the values calculated?</h3>
+<p>The app takes the performance table (book values at ISA, paved, dry, level runway, no wind) and computes pressure altitude, ISA deviation and density altitude from your inputs. It interpolates the table at that density altitude and applies correction factors for slope, surface, contamination and wind. The factors are rules of thumb and can be changed per aircraft.</p>
+<h3>Can I rely on the results?</h3>
+<p>No. The results are estimates only and no substitute for the aircraft flight manual (AFM/POH). The pilot in command is solely responsible for verifying take-off performance. Use is at your own risk.</p>
+<h3>How do I back up or share aircraft?</h3>
+<p>In the Aircraft tab you can export aircraft as a <code>.runwaycalc</code> file and import such files again. Existing aircraft with the same ID are updated, others are added. Files leave your device only when you share them.</p>
+</section>
+<hr>
+<section id="de" lang="de">
+<h1>Support</h1>
+<p>Fragen, Feedback oder Fehlermeldungen: &#114;&#117;&#110;&#119;&#97;&#121;&#99;&#97;&#108;&#99;&#64;&#109;&#97;&#99;&#104;&#111;&#119;&#105;&#97;&#107;&#46;&#100;&#101;</p>
+<h2>FAQ</h2>
+<h3>Wie werden die Werte berechnet?</h3>
+<p>Die App verwendet die Leistungstabelle (Handbuchwerte bei ISA, befestigte, trockene, ebene Piste, ohne Wind) und berechnet aus deinen Eingaben Druckhöhe, ISA-Abweichung und Dichtehöhe. Die Tabelle wird bei dieser Dichtehöhe interpoliert; danach werden Korrekturfaktoren für Neigung, Belag, Verunreinigung und Wind angewendet. Die Faktoren sind Faustregeln und lassen sich je Flugzeug anpassen.</p>
+<h3>Kann ich mich auf die Ergebnisse verlassen?</h3>
+<p>Nein. Die Ergebnisse sind nur Schätzungen und ersetzen nicht das Flughandbuch (AFM/POH). Der verantwortliche Luftfahrzeugführer ist allein für die Überprüfung der Startleistung verantwortlich. Die Nutzung erfolgt auf eigenes Risiko.</p>
+<h3>Wie sichere oder teile ich Flugzeuge?</h3>
+<p>Im Tab „Flugzeuge“ kannst du Flugzeuge als <code>.runwaycalc</code>-Datei exportieren und solche Dateien wieder importieren. Vorhandene Flugzeuge mit gleicher ID werden aktualisiert, andere hinzugefügt. Dateien verlassen dein Gerät nur, wenn du sie teilst.</p>
+</section>
+</main>
+</body>
+</html>
